@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.number{
+  position: absolute;
+  z-index: 3;
+  color: aliceblue;
+  pointer-events: none;
+  font-size: 26px;
+  font-weight: bold;
+  animation: toDes 2s forwards;
+}
+
+@keyframes toDes{
+  from{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  to{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
