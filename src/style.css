@@ -12,6 +12,11 @@
   animation: toDes 2s forwards;
 }
 
+div:focus{
+  background-color: transparent;
+  outline: none;
+}
+
 @keyframes toDes{
   from{
     transform: translateY(0px);
